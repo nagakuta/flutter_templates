@@ -9,7 +9,8 @@ WORKDIR /workspace/flutter_templates
 
 # Install FVM
 ARG PATH=/root/.pub-cache/bin:$PATH
-RUN dart pub global activate fvm --verbose
+RUN dart pub global activate fvm --verbose && \
+    dart pub global activate mason_cli --verbose
 
 # Set paths
 ENV PUB_ROOT=/root/.pub-cache
