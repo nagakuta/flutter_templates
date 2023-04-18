@@ -8,6 +8,7 @@ services:
       # Dart files
       - ../.fvm/fvm_config.json:/workspace/flutter_templates/.fvm/fvm_config.json:cached
       - ../mason.yaml:/workspace/flutter_templates/mason.yaml:cached
+      - ../dart_package:/workspace/flutter_templates/dart_package:cached
       - ../flutter_plugin:/workspace/flutter_templates/flutter_plugin:cached
       # VSCode settings
       - ../.vscode:/workspace/.vscode:cached
