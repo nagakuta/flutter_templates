@@ -5,7 +5,7 @@ homepage: https://github.com/nagakuta/flutter_modules/{{name.snakeCase()}}/
 publish_to: https://dart.cloudsmith.io/nagakuta_flutter/modules/
 
 environment:
-  sdk: ">=2.19.4 <3.0.0"
+  sdk: ">=2.19.6 <3.0.0"
 
 dependencies:
   # Freezed Annotation
