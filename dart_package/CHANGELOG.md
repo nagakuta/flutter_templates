@@ -1,3 +1,7 @@
+# 0.1.0+1
+
+- Upgrade Dart SDK to `2.19.6`.
+
 # 0.1.0
 
-- TODO: Describe initial release.
+- Initial version.
