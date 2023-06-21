@@ -5,8 +5,8 @@ homepage: https://github.com/nagakuta/flutter_modules/{{name.snakeCase()}}/
 publish_to: none
 
 environment:
-  sdk: ">=2.19.6 <3.0.0"
-  flutter: ">=2.5.0"
+  sdk: ^3.0.0
+  flutter: ^3.3.0
 
 dependencies:
   flutter:
