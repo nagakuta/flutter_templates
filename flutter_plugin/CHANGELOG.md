@@ -1,5 +1,9 @@
 # 0.1.0+2
 
+- Upgrade Flutter SDK to `3.13.4`.
+
+# 0.1.0+2
+
 - Upgrade Flutter SDK to `3.10.5`.
 
 # 0.1.0+1
