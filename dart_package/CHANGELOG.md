@@ -1,3 +1,7 @@
+# 0.1.0+4
+
+- Upgrade Dart SDK to `3.13.8`.
+
 # 0.1.0+3
 
 - Upgrade Dart SDK to `3.13.4`.
