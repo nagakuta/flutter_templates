@@ -30,7 +30,7 @@ dev_dependencies:
   # Freezed
   freezed: ^2.0.0
 
-  lints: ^2.0.0
+  lints: ^3.0.0
 
   # Riverpod Generator
   riverpod_generator: ^2.0.0
