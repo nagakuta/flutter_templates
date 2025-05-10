@@ -1,0 +1,15 @@
+version: '3.8'
+services:
+  flutter_templates:
+    build:
+      context: ../
+      dockerfile: .devcontainer/flutter_templates/Dockerfile
+    volumes:
+      # VSCode settings
+      - ../.vscode:/workspace/.vscode:cached
+      # Git
+      - ../.git:/workspace/.git:cached
+      - ../.gitignore:/workspace/.gitignore:cached
+    command: /bin/sh -c "while sleep 1000; do :; done"
+    env_file:
+      - flutter_templates/.flutter.env
