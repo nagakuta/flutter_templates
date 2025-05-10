@@ -1,0 +1,9 @@
+name: template_workspace
+description: A Dart / Flutter plugin template project.
+homepage: https://github.com/nagakuta
+
+environment:
+  sdk: ^3.0.0
+
+dev_dependencies:
+  mason_cli: ^0.1.0-dev.55

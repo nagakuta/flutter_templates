@@ -6,6 +6,9 @@
 # FVM
 .fvm/
 
+# Mason
+.mason/
+
 # Miscellaneous
 *.class
 # *.lock
