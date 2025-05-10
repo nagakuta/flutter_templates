@@ -5,6 +5,11 @@ services:
       context: ../
       dockerfile: .devcontainer/flutter_templates/Dockerfile
     volumes:
+      # Dart files
+      - ../.fvmrc:/workspace/.fvmrc:cached
+      - ../dart_package:/workspace/dart_package:cached
+      - ../flutter_plugin:/workspace/flutter_plugin:cached
+      - ../LICENSE:/workspace/LICENSE:cached
       # VSCode settings
       - ../.vscode:/workspace/.vscode:cached
       # Git
