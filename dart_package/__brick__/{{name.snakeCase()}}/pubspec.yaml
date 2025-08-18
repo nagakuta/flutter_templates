@@ -5,7 +5,7 @@ homepage: https://github.com/nagakuta/flutter_modules/{{name.snakeCase()}}/
 publish_to: none
 
 environment:
-  sdk: ^3.4.0
+  sdk: ^3.5.0
 
 dependencies:
   # Freezed Annotation
@@ -30,7 +30,7 @@ dev_dependencies:
   # Freezed
   freezed: ^2.0.0
 
-  lints: ^3.0.0
+  lints: ^4.0.0
 
   # Riverpod Generator
   riverpod_generator: ^2.0.0
