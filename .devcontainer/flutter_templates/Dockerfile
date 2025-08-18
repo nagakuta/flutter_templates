@@ -1,5 +1,5 @@
 # Base image
-FROM dart:3.3-sdk
+FROM dart:3.4-sdk
 
 # Maintainer
 LABEL maintainer="nagakuta <nagakuta0314+github@gmail.com>"
