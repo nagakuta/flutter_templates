@@ -5,7 +5,7 @@ homepage: https://github.com/nagakuta/flutter_modules/{{name.snakeCase()}}/
 publish_to: none
 
 environment:
-  sdk: ^3.5.0
+  sdk: ^3.6.0
   flutter: ^3.3.0
 
 dependencies:
@@ -38,7 +38,7 @@ dev_dependencies:
   # Build Runner
   build_runner: ^2.0.0
 
-  flutter_lints: ^4.0.0
+  flutter_lints: ^5.0.0
 
   flutter_test:
     sdk: flutter
